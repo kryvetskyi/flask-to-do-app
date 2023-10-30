@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+span {
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    margin-left: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.add-task-container {
+    display: flex;
+    align-items: center;
+}
+
+.add-task-container input[type="text"] {
+    margin-left: 10px; /* Add margin for spacing */
+}
+
+
+.add-task-container {
+    display: flex;
+    align-items: center;
+}
+
+.add-task-container input[type="text"] {
+    margin-right: 10px; /* Add right margin for spacing */
+}
+
+.add-task-container button {
+    margin-left: 10px; /* Add left margin for spacing */
+}
+
