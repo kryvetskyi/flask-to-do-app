@@ -8,5 +8,4 @@ COPY . .
 RUN pip install -r requirements.txt
 RUN flake8 .
 RUN pytest tests
-
-ENTRYPOINT ["gunicorn", "-w 2", "-b 0.0.0.0:5002", "app:app"]
+ENTRYPOINT ["gunicorn", "-w 2", "-b 0.0.0.0:5555", "app:app"]
